@@ -1,0 +1,43 @@
+package programapernas;
+
+import java.util.Scanner;
+
+
+public class ProgramaPernas {
+
+    
+    public static void main(String[] args) {
+        Scanner Tec = new Scanner(System.in);
+        System.out.println("Quantas pernas?");
+        int pernas = Tec.nextInt();
+        String tipo;
+        switch (pernas){
+            case 1:
+                tipo = "Saci";
+                break;
+            case 2:
+                tipo = "Bípede";
+                break;
+            
+            case 3:
+                tipo = "Tripede";
+                break;
+            case 4:
+                tipo = "Quadrúpede";
+                break;
+            case 6:
+                tipo = "Aranha";
+                break;
+            default:
+                tipo = "ET";
+                break;
+                
+            
+                
+               
+        }       
+        
+        System.out.println("É do tipo: "+tipo);
+    }
+        
+    }

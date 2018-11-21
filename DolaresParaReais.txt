@@ -1,0 +1,18 @@
+package reaisparadolares;
+
+import java.util.Scanner;
+
+
+public class ReaisParaDolares {
+
+    
+    public static void main(String[] args) {
+        /* Crie um programa que permita fazer a conversão entre Dólarese e reais.Considere como taxa de cambio USS 1,0 = R$ 2,40.Leia um valor em reais pelo teclado e mostre correspondente em dolares.*/
+        float d,r;
+        System.out.print("Digite o valor em reais: R$ ");
+        Scanner Teclado = new Scanner(System.in);
+        d = Teclado.nextFloat();
+        r = d * 2.40f;
+        System.out.println("Este valor em dolares será igual a:R$ "+r);
+        
+    }
