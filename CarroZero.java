@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author lab208
+ * @author sara
  */
 public class CarroZero {
 
