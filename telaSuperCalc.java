@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Willian
+ * @author Sara
  */
 public class telaSuperCalc extends javax.swing.JFrame {
 
